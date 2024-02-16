@@ -1,0 +1,44 @@
+{
+  "name": "smart-meter-app",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "predeploy": "expo export -p web",
+    "deploy": "gh-pages -t -d dist",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/webpack-config": "^19.0.0",
+    "@react-native-async-storage/async-storage": "1.18.2",
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.17",
+    "deepmerge": "^4.3.1",
+    "expo": "~49.0.15",
+    "expo-linking": "~5.0.2",
+    "expo-status-bar": "~1.6.0",
+    "lodash.get": "^4.4.2",
+    "moment": "^2.29.4",
+    "react": "18.2.0",
+    "react-art": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "0.72.10",
+    "react-native-paper": "^5.11.4",
+    "react-native-screens": "~3.22.0",
+    "react-native-svg": "^13.9.0",
+    "react-native-web": "^0.19.9",
+    "victory": "^36.7.0",
+    "victory-native": "^36.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.14",
+    "gh-pages": "^6.1.1",
+    "source-map-loader": "^4.0.1",
+    "typescript": "^5.1.3"
+  },
+  "private": true
+}
