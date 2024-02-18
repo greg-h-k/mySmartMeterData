@@ -48,7 +48,7 @@ export const SetupGuide = ({navigation, ...props}: any) => {
                         title="2. Provide your Meter Point Administration Number (MPAN)" 
                         titleVariant="headlineSmall" 
                         titleNumberOfLines={5}
-                        subtitle="During sign up with n3rgy, you will need to provide your MPAN number. Your MPAN is usually shown on your bill as a block prepended with an 'S'. The MPAN is the lower number in this block consisting of just the numbers." 
+                        subtitle="During sign up with n3rgy, you will need to provide your MPAN number. Your MPAN is usually shown on your bill as a block prepended with an 'S'. The MPAN is the lower number in this block consisting of just numbers." 
                         subtitleNumberOfLines={20}
                         subtitleVariant="bodyMedium"
                         left={({ size }) => <Octicons name="number" size={size} color={iconColor} />}
@@ -93,9 +93,7 @@ export const SetupGuide = ({navigation, ...props}: any) => {
 
 const styles = StyleSheet.create({
     container: {
-        padding: 10,
-        keyboardVerticalOffset: 100,
-        behavior: "padding"
+        padding: 10
     },
     card: {
         marginBottom: 10
