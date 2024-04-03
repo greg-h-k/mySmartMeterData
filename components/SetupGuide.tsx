@@ -26,7 +26,8 @@ export const SetupGuide = ({navigation, ...props}: any) => {
                     Data is pulled from the n3rgy service and electricity & gas consumption 
                     data will be displayed. 
                     There is a time lag from data being collected from your meter, so data for the 
-                    latest day may not be complete. 
+                    latest day may not be complete. This app simply visualizes the available data, if data 
+                    is missing or inaccurate, you will need to contact your provider. 
                 </Text>
 
                 <Divider style={{ margin: 10 }} />
