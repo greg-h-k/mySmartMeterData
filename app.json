@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nstarc.smartmeterapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,6 +29,11 @@
     },
     "experiments": {
       "baseUrl": "/mySmartMeterData"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7b285b23-3fc1-4e2f-9d6a-28953fb8193b"
+      }
     }
   }
 }
